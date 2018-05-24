@@ -1,0 +1,23 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+/* Footer Styles */
+footer{
+  height: 200px;
+  width: 100%;
+}
