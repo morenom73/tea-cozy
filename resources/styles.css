@@ -11,10 +11,37 @@ body {
 
 /* Header Styles */
 header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0;
 }
+
+.header-logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  border: 1px solid red; /* for debugging */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 20px;
+  width: 400px;
+}
+
+header nav a{
+  color: seashell;
+}
+/* End Header Styles */
+
 
 /* Footer Styles */
 footer{
