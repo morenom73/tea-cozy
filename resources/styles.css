@@ -9,8 +9,8 @@ body {
   text-align: center;
 }
 
-/* Header Styles */
-header {
+/* Top Header Nav Styles */
+.top-nav {
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -20,6 +20,7 @@ header {
   border-bottom: 1px solid seashell;
   background-color: black;
   top: 0;
+  z-index: 1;
 }
 
 .header-logo {
@@ -28,7 +29,7 @@ header {
 }
 
 nav {
-  border: 1px solid red; /* for debugging */
+  /* border: 1px solid red;  for debugging */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,8 +41,33 @@ nav {
 header nav a{
   color: seashell;
 }
-/* End Header Styles */
+/* End Top Header Nav Styles */
 
+/* Begin Our Mission Header */
+
+.hero-image {
+  background-image: url("../resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: inline-block;
+  position: relative;
+  top: 62px;
+}
+
+.our-mission {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 295px;
+  height: 110px;
+}
+
+header h2 {
+  margin-bottom: -25px;
+}
+
+/* End Our Mission Header */
 
 /* Footer Styles */
 footer{
