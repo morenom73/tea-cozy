@@ -64,13 +64,124 @@ header nav a{
 }
 
 header h2 {
-  margin-bottom: -25px;
+  margin-bottom: -20px;
 }
 
 /* End Our Mission Header */
 
-/* Footer Styles */
+/* Tea of the Month Styles */
+
+.tea-month {
+  position: relative;
+  top: 60px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tea-month h2 {
+  margin-bottom: -20px;
+}
+
+.tea-items{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tea-items img {
+  padding-left: 25px;
+}
+
+.berry-blitz {
+  height: 200px;
+  width: 300px;
+  margin-bottom: -20px;
+}
+
+.spiced-rum {
+  height: 200px;
+  width: 300px;
+  margin-bottom: -20px;
+}
+
+.donuts {
+  height: 200px;
+  width: 300px;
+  margin-bottom: -20px;
+}
+
+.myrtle-ave-tea {
+  height: 200px;
+  width: 300px;
+  margin-bottom: -20px;
+}
+
+.bedford-bizarre {
+  height: 200px;
+  width: 300px;
+  margin-bottom: -20px;
+}
+
+/* End Tea of the Month Styles */
+
+/* Begin Locations Styles */
+
+.location-background-image {
+  background-image: url("../resources/images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 62px;
+}
+
+#locations-section {
+  /* border: 1px solid blue;  for debugging */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.locations {
+  /* border: 1px solid blue;  for debugging */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 980px;
+  margin-top: -19px;
+  margin-bottom: 80px;
+}
+
+.location-boxes {
+  /* border: 1px solid blue;  for debugging */
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+}
+
+/* End Locations Styles */
+
+/* Begin Footer Styles */
 footer{
   height: 200px;
   width: 100%;
+  position: relative;
+  top: 60px;
 }
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* End Footer Styles */

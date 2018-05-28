@@ -3,25 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Tea Cozy</title>
-    <link rel="stylesheet" href="resources/styles.css" type="text/css">
+    <link rel="stylesheet" href="resources/styles.css" >
   </head>
   <body>
 
 <!-- Begin Top header Nav-->
-
 <header class="top-nav">
     <img class="header-logo" src="resources/images/img-tea-cozy-logo.png" alt="tea cozy logo">
  <nav>
-    <a href="#">Mission</a>
-    <a href="#">Featured Tea</a>
-    <a href="#">Locations</a>
+    <a href="#mission">Mission</a>
+    <a href="#featured-tea">Featured Tea</a>
+    <a href="#locations">Locations</a>
 </nav>
     </header>
 
 <!-- End Top header Nav-->
 
 <!-- Begin Our Mission Header-->
-<header class="hero-image">
+<header class="hero-image" id="mission">
   <div class="our-mission">
     <h2>Our Mission</h2>
     <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch,
@@ -31,9 +30,73 @@
 
 <!-- End Our Mission Header-->
 
-<!-- Begin Footer -->
+<!-- Tea of the Month Section -->
+<section class="tea-month" id="featured-tea">
+  <h2>Tea of the Month</h2>
+  <h4>What's Steeping at The Tea Cozy?</h4>
+ <div class="tea-items">
+    <div class="tea-cozy-item1">
+      <img class="berry-blitz" src="./resources/images/img-berryblitz.jpg" alt="Berry Blitz Tea">
+      <p>Fall Berry Blitz Tea</p>
+    </div>
+    <div class="tea-cozy-item2">
+      <img class="spiced-rum" src="./resources/images/img-spiced-rum.jpg" alt="Spiced Rum Tea">
+      <p>Spiced Rum Tea</p>
+    </div>
+    <div class="tea-cozy-item3">
+      <img class="donuts" src="./resources/images/img-donut.jpg" alt="Seasonal Donuts">
+      <p>Seasonal Donuts</p>
+    </div>
+    <div class="tea-cozy-item4">
+      <img class="myrtle-ave-tea" src="./resources/images/img-myrtle-ave.jpg" alt="Myrtle Ave Tea">
+      <p>Myrtle Ave Tea</p>
+    </div>
+    <div class="tea-cozy-item5">
+      <img class="bedford-bizarre" src="./resources/images/img-bedford-bizarre.jpg" alt="Bedford Bizarre Tea">
+      <p>Bedford Bizarre Tea</p>
+    </div>
+  </div> <!-- end of tea-items class div -->
+</section>
 
+<!-- End Tea of the Month Section -->
+
+<!-- Begin Locations Section -->
+
+<section class="location-background-image" >
+  <div id="locations-section">
+  <h2 class="locations-h2">Locations</h2>
+  <div class="locations">
+    <div class="location-boxes" id="downtown">
+      <h3>Downtown</h3>
+      <p>384 West 4th St</p>
+      <p>Suite 108</p>
+      <p>Portland, Maine</p>
+    </div>
+    <div class="location-boxes" id="dast-bayside">
+      <h3>East Bayside</h3>
+      <p>3433 Phisherman's Avenue</p>
+      <p>Second Floor</p>
+      <p>Portland, Maine</p>
+    </div>
+    <div class="location-boxes" id="oakdale">
+      <h3>Oakdale</h3>
+      <p>515 Crescent Avenue</p>
+      <p>Northwest Corner</p>
+      <p>Portland, Maine</p>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- End Locations Section -->
+
+<!-- Begin Footer -->
     <footer>
+      <h2>The Tea Cozy</h2>
+      <h5>contact@theteacozy.com</h5>
+      <p>917-555-8904</p>
+      <p id="copyright">copyright The Tea Cozy 2017</p>
     </footer>
+
+<!-- End Footer -->
   </body>
 </html>
